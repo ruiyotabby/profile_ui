@@ -27,7 +27,7 @@ void main() {
               ),
               Text(
                 'ruiyotabby@gmail.com',
-                style: GoogleFonts.lato(
+                style: GoogleFonts.robotoMono(
                   color: Colors.white,
                   fontSize: 20,
                   fontStyle: FontStyle.italic,
