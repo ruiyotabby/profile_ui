@@ -7,7 +7,8 @@ void main() {
       backgroundColor: Colors.grey[800],
       body: Center(
         child: Padding(
-          padding: const EdgeInsets.only(left: 20, right: 20, top: 20, bottom: 20),
+          padding:
+              const EdgeInsets.only(left: 20, right: 20, top: 20, bottom: 20),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -16,7 +17,22 @@ void main() {
                 radius: 70,
                 backgroundImage: AssetImage('assets/images/omosh_copy.jpeg'),
               ),
-              Text('helo', style: GoogleFonts.lato(color: Colors.white, fontSize: 24,),),
+              Text(
+                'Ruiyot',
+                style: GoogleFonts.lato(
+                  color: Colors.white,
+                  fontSize: 30,
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
+              Text(
+                'ruiyotabby@gmail.com',
+                style: GoogleFonts.lato(
+                  color: Colors.white,
+                  fontSize: 20,
+                  fontStyle: FontStyle.italic,
+                ),
+              ),
             ],
           ),
         ),
