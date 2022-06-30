@@ -6,7 +6,14 @@ void main() {
       backgroundColor: Colors.grey[800],
       body: Center(
         child: Column(
-          children: [CircleAvatar(radius: 50, backgroundImage: AssetImage('assets/images/omosh_copy.jpeg'),)],
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            CircleAvatar(
+              radius: 70,
+              backgroundImage: AssetImage('assets/images/omosh_copy.jpeg'),
+            )
+          ],
         ),
       ),
     ),
