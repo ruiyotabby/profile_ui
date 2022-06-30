@@ -6,7 +6,7 @@ void main() {
       backgroundColor: Colors.grey[800],
       body: Center(
         child: Column(
-          children: [],
+          children: [CircleAvatar(radius: 50, backgroundImage: AssetImage('assets/images/omosh_copy.jpeg'),)],
         ),
       ),
     ),
