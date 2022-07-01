@@ -44,9 +44,11 @@ void main() {
                     Radius.circular(20),
                   ),
                 ),
-                child: Text(
-                  'Upgrade to premium',
-                  style: GoogleFonts.robotoMono(color: Colors.black, fontWeight: FontWeight.w400, fontSize: 25),
+                child: Center(
+                  child: Text(
+                    'Upgrade to premium',
+                    style: GoogleFonts.robotoMono(color: Colors.black, fontWeight: FontWeight.w400, fontSize: 25),
+                  ),
                 ),
               ),
             ],
