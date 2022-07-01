@@ -4,11 +4,10 @@ import 'package:google_fonts/google_fonts.dart';
 void main() {
   runApp(MaterialApp(
     home: Scaffold(
-      backgroundColor: Colors.grey[800],
+      backgroundColor: Colors.grey[900],
       body: Center(
         child: Padding(
-          padding:
-              const EdgeInsets.all(20),
+          padding: const EdgeInsets.all(20),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -22,7 +21,7 @@ void main() {
                 'Ruiyot Abby',
                 style: GoogleFonts.lato(
                   color: Colors.white,
-                  fontSize: 30,
+                  fontSize: 25,
                   fontWeight: FontWeight.w500,
                 ),
               ),
@@ -31,11 +30,18 @@ void main() {
                 'ruiyotabby@gmail.com',
                 style: GoogleFonts.robotoMono(
                   color: Colors.white,
-                  fontSize: 20,
+                  fontSize: 15,
                   fontStyle: FontStyle.italic,
                 ),
               ),
               SizedBox(height: 5),
+              Container(
+                height: 50,
+                width: 200,
+                child: Text(
+                  'shsj',style: GoogleFonts.lato(color: Colors.white),
+                ),
+              ),
             ],
           ),
         ),
