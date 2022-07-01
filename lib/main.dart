@@ -37,7 +37,7 @@ void main() {
               SizedBox(height: 5),
               Container(
                 height: 50,
-                width: 200,
+                width: 400,
                 decoration: BoxDecoration(
                   color: Colors.yellow,
                   borderRadius: BorderRadius.all(
@@ -45,8 +45,8 @@ void main() {
                   ),
                 ),
                 child: Text(
-                  'shsj',
-                  style: GoogleFonts.lato(color: Colors.white),
+                  'Upgrade to premium',
+                  style: GoogleFonts.lato(color: Colors.black, fontWeight: FontWeight.w400, fontSize: 25),
                 ),
               ),
             ],
