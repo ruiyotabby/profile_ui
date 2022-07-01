@@ -72,6 +72,12 @@ void main() {
                 icon: Icons.card_giftcard_outlined,
                 iconShown: true,
               ),
+              SizedBox(height: 10),
+              ProfileMenuItem(
+                text: 'Logout',
+                icon: Icons.logout,
+                iconShown: false,
+              ),
             ],
           ),
         ),
