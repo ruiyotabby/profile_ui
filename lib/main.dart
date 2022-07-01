@@ -51,76 +51,7 @@ void main() {
                   ),
                 ),
               ),
-              SizedBox(height: 15),
-              Container(
-                height: 50,
-                width: 300,
-                decoration: BoxDecoration(
-                  color: Colors.grey[800],
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(30),
-                  ),
-                ),
-                child: Center(
-                  child: Text(
-                    'Your order history',
-                    style: GoogleFonts.lato(color: Colors.white, fontWeight: FontWeight.w400, fontSize: 25),
-                  ),
-                ),
-              ),
-
-              SizedBox(height: 15),
-              Container(
-                height: 50,
-                width: 300,
-                decoration: BoxDecoration(
-                  color: Colors.grey[800],
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(30),
-                  ),
-                ),
-                child: Center(
-                  child: Text(
-                    'Help and support',
-                    style: GoogleFonts.lato(color: Colors.white, fontWeight: FontWeight.w400, fontSize: 25),
-                  ),
-                ),
-              ),
-
-              SizedBox(height: 15),
-              Container(
-                height: 50,
-                width: 300,
-                decoration: BoxDecoration(
-                  color: Colors.grey[800],
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(30),
-                  ),
-                ),
-                child: Center(
-                  child: Text(
-                    'Load gift voucher',
-                    style: GoogleFonts.lato(color: Colors.white, fontWeight: FontWeight.w400, fontSize: 25),
-                  ),
-                ),
-              ),
-              SizedBox(height: 15),
-              Container(
-                height: 50,
-                width: 300,
-                decoration: BoxDecoration(
-                  color: Colors.grey[800],
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(30),
-                  ),
-                ),
-                child: Center(
-                  child: Text(
-                    'Logout',
-                    style: GoogleFonts.lato(color: Colors.white, fontWeight: FontWeight.w400, fontSize: 25),
-                  ),
-                ),
-              ),
+              
             ],
           ),
         ),
