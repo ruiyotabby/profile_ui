@@ -54,7 +54,7 @@ void main() {
                   ),
                 ),
               ),
-              SizedBox(height: 5),
+              SizedBox(height: 10),
               Container(
                 height: 50,
                 width: 300,
@@ -65,11 +65,15 @@ void main() {
                   ),
                 ),
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Icon(
-                      Icons.shopping_bag_outlined,
-                      color: Colors.white,
-                      size: 30,
+                    Padding(
+                      padding: EdgeInsets.only(left: 10),
+                      child: Icon(
+                        Icons.shopping_bag_outlined,
+                        color: Colors.white,
+                        size: 35,
+                      ),
                     ),
                     Text(
                       'Your Order history',
@@ -78,10 +82,13 @@ void main() {
                         fontSize: 20,
                       ),
                     ),
-                    Icon(
-                      Icons.arrow_forward_outlined,
-                      color: Colors.white,
-                      size: 30,
+                    Padding(
+                      padding: EdgeInsets.only(right: 10),
+                      child: Icon(
+                        Icons.arrow_forward_outlined,
+                        color: Colors.white,
+                        size: 30,
+                      ),
                     ),
                   ],
                 ),
