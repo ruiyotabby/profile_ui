@@ -16,6 +16,15 @@ void main() {
                 size: 30,
               ),
             ),
+            Positioned(
+              top: 50,
+              right: 20,
+              child: Icon(
+                Icons.settings,
+                color: Colors.white,
+                size: 30,
+              ),
+            ),
             Center(
               child: Padding(
                 padding: const EdgeInsets.all(20),
