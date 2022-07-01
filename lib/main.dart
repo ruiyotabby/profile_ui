@@ -13,6 +13,7 @@ void main() {
               child: Icon(
                 Icons.arrow_back,
                 color: Colors.white,
+                size: 30,
               ),
             ),
             Center(
