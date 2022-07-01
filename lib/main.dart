@@ -68,7 +68,7 @@ void main() {
               ),
               SizedBox(height: 10),
               ProfileMenuItem(
-                text: 'Load gift card voucher',
+                text: 'Load gift voucher',
                 icon: Icons.card_giftcard_outlined,
                 iconShown: true,
               ),
