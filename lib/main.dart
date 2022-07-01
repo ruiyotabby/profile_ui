@@ -4,8 +4,10 @@ import 'package:google_fonts/google_fonts.dart';
 void main() {
   runApp(MaterialApp(
     home: Scaffold(
-      backgroundColor: Colors.grey[900],
-      body: Center(
+        backgroundColor: Colors.grey[900],
+        body: Stack(
+          children: [
+            Center(
         child: Padding(
           padding: const EdgeInsets.all(20),
           child: Column(
@@ -82,7 +84,8 @@ void main() {
           ),
         ),
       ),
-    ),
+          ],
+        )),
   ));
 }
 
