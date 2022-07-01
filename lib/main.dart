@@ -55,7 +55,7 @@ void main() {
                 ),
               ),
               SizedBox(height: 10),
-              ProfileMenuItem(),
+              ProfileMenuItem(text: 'Your order history', icon: Icons.shopping_bag_outlined, iconShown: true,),
             ],
           ),
         ),
@@ -65,9 +65,10 @@ void main() {
 }
 
 class ProfileMenuItem extends StatelessWidget {
-  const ProfileMenuItem({
-    Key? key,
-  }) : super(key: key);
+  ProfileMenuItem({required this.text, required this.icon, required this.iconShown});
+  final String text;
+  final IconData icon;
+  final bool iconShown;
 
   @override
   Widget build(BuildContext context) {
@@ -86,26 +87,26 @@ class ProfileMenuItem extends StatelessWidget {
           Padding(
             padding: EdgeInsets.only(left: 10),
             child: Icon(
-              Icons.shopping_bag_outlined,
+              icon,
               color: Colors.white,
               size: 35,
             ),
           ),
           Text(
-            'Your Order history',
+            '$text',
             style: GoogleFonts.goldman(
               color: Colors.white,
               fontSize: 20,
             ),
           ),
-          Padding(
+          iconShown ? Padding(
             padding: EdgeInsets.only(right: 10),
             child: Icon(
               Icons.arrow_forward_outlined,
               color: Colors.white,
               size: 30,
             ),
-          ),
+          ) : Container(),
         ],
       ),
     );
