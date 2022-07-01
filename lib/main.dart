@@ -37,7 +37,7 @@ void main() {
               SizedBox(height: 5),
               Container(
                 height: 50,
-                width: 300,
+                width: 280,
                 decoration: BoxDecoration(
                   color: Colors.yellow[500],
                   borderRadius: BorderRadius.all(
@@ -57,7 +57,7 @@ void main() {
               SizedBox(height: 10),
               Container(
                 height: 50,
-                width: 300,
+                width: 280,
                 decoration: BoxDecoration(
                   color: Colors.grey[800],
                   borderRadius: BorderRadius.all(
