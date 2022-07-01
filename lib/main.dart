@@ -41,7 +41,24 @@ void main() {
                 decoration: BoxDecoration(
                   color: Colors.yellow[500],
                   borderRadius: BorderRadius.all(
-                    Radius.circular(20),
+                    Radius.circular(30),
+                  ),
+                ),
+                child: Center(
+                  child: Text(
+                    'Upgrade to premium',
+                    style: GoogleFonts.robotoMono(color: Colors.black, fontWeight: FontWeight.w400, fontSize: 25),
+                  ),
+                ),
+              ),
+              SizedBox(height: 10),
+              Container(
+                height: 50,
+                width: 300,
+                decoration: BoxDecoration(
+                  color: Colors.grey[600],
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(30),
                   ),
                 ),
                 child: Center(
