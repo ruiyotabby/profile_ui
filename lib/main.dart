@@ -69,8 +69,9 @@ void main() {
                     Icon(
                       Icons.shopping_bag_outlined,
                       color: Colors.white,
-                      size: 20,
+                      size: 30,
                     ),
+                    Text('Your Order history',style: GoogleFonts.goldman(color: Colors.white, fontSize: 20),),
                   ],
                 ),
               ),
