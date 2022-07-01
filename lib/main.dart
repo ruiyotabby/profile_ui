@@ -63,8 +63,61 @@ void main() {
                 ),
                 child: Center(
                   child: Text(
-                    'Upgrade to premium',
-                    style: GoogleFonts.robotoMono(color: Colors.black, fontWeight: FontWeight.w400, fontSize: 25),
+                    'Your order history',
+                    style: GoogleFonts.lato(color: Colors.white, fontWeight: FontWeight.w400, fontSize: 25),
+                  ),
+                ),
+              ),
+
+              SizedBox(height: 10),
+              Container(
+                height: 50,
+                width: 300,
+                decoration: BoxDecoration(
+                  color: Colors.grey[600],
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(30),
+                  ),
+                ),
+                child: Center(
+                  child: Text(
+                    'Your order history',
+                    style: GoogleFonts.lato(color: Colors.white, fontWeight: FontWeight.w400, fontSize: 25),
+                  ),
+                ),
+              ),
+
+              SizedBox(height: 10),
+              Container(
+                height: 50,
+                width: 300,
+                decoration: BoxDecoration(
+                  color: Colors.grey[600],
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(30),
+                  ),
+                ),
+                child: Center(
+                  child: Text(
+                    'Your order history',
+                    style: GoogleFonts.lato(color: Colors.white, fontWeight: FontWeight.w400, fontSize: 25),
+                  ),
+                ),
+              ),
+              SizedBox(height: 10),
+              Container(
+                height: 50,
+                width: 300,
+                decoration: BoxDecoration(
+                  color: Colors.grey[600],
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(30),
+                  ),
+                ),
+                child: Center(
+                  child: Text(
+                    'Your order history',
+                    style: GoogleFonts.lato(color: Colors.white, fontWeight: FontWeight.w400, fontSize: 25),
                   ),
                 ),
               ),
