@@ -55,7 +55,11 @@ void main() {
                 ),
               ),
               SizedBox(height: 10),
-              ProfileMenuItem(text: 'Your order history', icon: Icons.shopping_bag_outlined, iconShown: true,),
+              ProfileMenuItem(
+                text: 'Your order history',
+                icon: Icons.shopping_bag_outlined,
+                iconShown: true,
+              ),
             ],
           ),
         ),
@@ -65,7 +69,8 @@ void main() {
 }
 
 class ProfileMenuItem extends StatelessWidget {
-  ProfileMenuItem({required this.text, required this.icon, required this.iconShown});
+  ProfileMenuItem(
+      {required this.text, required this.icon, required this.iconShown});
   final String text;
   final IconData icon;
   final bool iconShown;
@@ -100,14 +105,16 @@ class ProfileMenuItem extends StatelessWidget {
               fontSize: 23,
             ),
           ),
-          iconShown ? Padding(
-            padding: EdgeInsets.only(right: 10),
-            child: Icon(
-              Icons.arrow_forward_outlined,
-              color: Colors.white,
-              size: 30,
-            ),
-          ) : Container(),
+          iconShown
+              ? Padding(
+                  padding: EdgeInsets.only(right: 10),
+                  child: Icon(
+                    Icons.arrow_forward_outlined,
+                    color: Colors.white,
+                    size: 30,
+                  ),
+                )
+              : Container(),
         ],
       ),
     );
