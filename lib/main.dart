@@ -38,8 +38,15 @@ void main() {
               Container(
                 height: 50,
                 width: 200,
+                decoration: BoxDecoration(
+                  color: Colors.yellow,
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(20),
+                  ),
+                ),
                 child: Text(
-                  'shsj',style: GoogleFonts.lato(color: Colors.white),
+                  'shsj',
+                  style: GoogleFonts.lato(color: Colors.white),
                 ),
               ),
             ],
