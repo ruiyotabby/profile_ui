@@ -8,7 +8,7 @@ void main() {
       body: Center(
         child: Padding(
           padding:
-              const EdgeInsets.only(left: 20, right: 20, top: 20, bottom: 20),
+              const EdgeInsets.all(20),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
