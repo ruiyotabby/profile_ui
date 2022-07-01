@@ -46,7 +46,7 @@ void main() {
                 ),
                 child: Text(
                   'Upgrade to premium',
-                  style: GoogleFonts.lato(color: Colors.black, fontWeight: FontWeight.w400, fontSize: 25),
+                  style: GoogleFonts.robotoMono(color: Colors.black, fontWeight: FontWeight.w400, fontSize: 25),
                 ),
               ),
             ],
