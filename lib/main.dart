@@ -37,7 +37,7 @@ void main() {
               SizedBox(height: 5),
               Container(
                 height: 50,
-                width: 400,
+                width: 300,
                 decoration: BoxDecoration(
                   color: Colors.yellow,
                   borderRadius: BorderRadius.all(
