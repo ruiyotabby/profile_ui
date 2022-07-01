@@ -51,7 +51,19 @@ void main() {
                   ),
                 ),
               ),
-              
+
+              SizedBox(height: 5),
+              Container(
+                height: 50,
+                width: 300,
+                decoration: BoxDecoration(
+                  color: Colors.grey[600],
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(30),
+                  ),
+                ),
+                child: Row(children: [Icon(Icons.shopping_bag_outlined, color: Colors.white,),],),
+              ),
             ],
           ),
         ),
