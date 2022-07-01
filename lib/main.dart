@@ -60,6 +60,13 @@ void main() {
                 icon: Icons.shopping_bag_outlined,
                 iconShown: true,
               ),
+              SizedBox(height: 10),
+              ProfileMenuItem(
+                text: 'Your order history',
+                icon: Icons.shopping_bag_outlined,
+                iconShown: true,
+              ),
+              
             ],
           ),
         ),
