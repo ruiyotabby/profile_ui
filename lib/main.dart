@@ -94,9 +94,10 @@ class ProfileMenuItem extends StatelessWidget {
           ),
           Text(
             '$text',
-            style: GoogleFonts.goldman(
+            style: GoogleFonts.robotoMono(
               color: Colors.white,
-              fontSize: 20,
+              fontWeight: FontWeight.w400,
+              fontSize: 23,
             ),
           ),
           iconShown ? Padding(
