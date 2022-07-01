@@ -39,7 +39,7 @@ void main() {
                 height: 50,
                 width: 300,
                 decoration: BoxDecoration(
-                  color: Colors.yellow,
+                  color: Colors.yellow[400],
                   borderRadius: BorderRadius.all(
                     Radius.circular(20),
                   ),
