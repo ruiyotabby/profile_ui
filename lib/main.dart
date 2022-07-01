@@ -62,11 +62,16 @@ void main() {
               ),
               SizedBox(height: 10),
               ProfileMenuItem(
-                text: 'Your order history',
+                text: 'Help and support',
+                icon: Icons.help_outline,
+                iconShown: true,
+              ),
+              SizedBox(height: 10),
+              ProfileMenuItem(
+                text: '',
                 icon: Icons.shopping_bag_outlined,
                 iconShown: true,
               ),
-              
             ],
           ),
         ),
