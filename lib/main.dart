@@ -59,7 +59,7 @@ void main() {
                 height: 50,
                 width: 300,
                 decoration: BoxDecoration(
-                  color: Colors.grey[600],
+                  color: Colors.grey[800],
                   borderRadius: BorderRadius.all(
                     Radius.circular(30),
                   ),
@@ -71,7 +71,18 @@ void main() {
                       color: Colors.white,
                       size: 30,
                     ),
-                    Text('Your Order history',style: GoogleFonts.goldman(color: Colors.white, fontSize: 20),),
+                    Text(
+                      'Your Order history',
+                      style: GoogleFonts.goldman(
+                        color: Colors.white,
+                        fontSize: 20,
+                      ),
+                    ),
+                    Icon(
+                      Icons.arrow_forward_outlined,
+                      color: Colors.white,
+                      size: 30,
+                    ),
                   ],
                 ),
               ),
