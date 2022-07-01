@@ -47,11 +47,13 @@ void main() {
                 child: Center(
                   child: Text(
                     'Upgrade to premium',
-                    style: GoogleFonts.robotoMono(color: Colors.black, fontWeight: FontWeight.w400, fontSize: 25),
+                    style: GoogleFonts.robotoMono(
+                        color: Colors.black,
+                        fontWeight: FontWeight.w400,
+                        fontSize: 25),
                   ),
                 ),
               ),
-
               SizedBox(height: 5),
               Container(
                 height: 50,
@@ -62,7 +64,15 @@ void main() {
                     Radius.circular(30),
                   ),
                 ),
-                child: Row(children: [Icon(Icons.shopping_bag_outlined, color: Colors.white,),],),
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.shopping_bag_outlined,
+                      color: Colors.white,
+                      size: 20,
+                    ),
+                  ],
+                ),
               ),
             ],
           ),
