@@ -37,7 +37,7 @@ void main() {
               SizedBox(height: 5),
               Container(
                 height: 50,
-                width: 280,
+                width: 290,
                 decoration: BoxDecoration(
                   color: Colors.yellow[500],
                   borderRadius: BorderRadius.all(
@@ -55,48 +55,59 @@ void main() {
                 ),
               ),
               SizedBox(height: 10),
-              Container(
-                height: 50,
-                width: 280,
-                decoration: BoxDecoration(
-                  color: Colors.grey[800],
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(30),
-                  ),
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Padding(
-                      padding: EdgeInsets.only(left: 10),
-                      child: Icon(
-                        Icons.shopping_bag_outlined,
-                        color: Colors.white,
-                        size: 35,
-                      ),
-                    ),
-                    Text(
-                      'Your Order history',
-                      style: GoogleFonts.goldman(
-                        color: Colors.white,
-                        fontSize: 20,
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(right: 10),
-                      child: Icon(
-                        Icons.arrow_forward_outlined,
-                        color: Colors.white,
-                        size: 30,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
+              ProfileMenuItem(),
             ],
           ),
         ),
       ),
     ),
   ));
+}
+
+class ProfileMenuItem extends StatelessWidget {
+  const ProfileMenuItem({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: 50,
+      width: 290,
+      decoration: BoxDecoration(
+        color: Colors.grey[800],
+        borderRadius: BorderRadius.all(
+          Radius.circular(30),
+        ),
+      ),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Padding(
+            padding: EdgeInsets.only(left: 10),
+            child: Icon(
+              Icons.shopping_bag_outlined,
+              color: Colors.white,
+              size: 35,
+            ),
+          ),
+          Text(
+            'Your Order history',
+            style: GoogleFonts.goldman(
+              color: Colors.white,
+              fontSize: 20,
+            ),
+          ),
+          Padding(
+            padding: EdgeInsets.only(right: 10),
+            child: Icon(
+              Icons.arrow_forward_outlined,
+              color: Colors.white,
+              size: 30,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
 }
